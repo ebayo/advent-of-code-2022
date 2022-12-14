@@ -8,5 +8,5 @@ def get_input_list(day_num):
     with open(input_file, 'r') as f:
         input_val = f.readlines()
 
-    return [v.rstrip() for v in input_val]
+    return [v.rstrip("\n") for v in input_val]
 
